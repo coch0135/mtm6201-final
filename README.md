@@ -30,3 +30,7 @@ Adopt-Banner Image (Adobe Stock Photo): https://stock.adobe.com/ca/images/signin
 Adopt-Process Image (Adobe Stock Photo): https://stock.adobe.com/ca/images/black-couple-love-or-petting-dog-in-animal-shelter-foster-kennel-or-adoption-center-smile-happy-or-love-man-and-woman-bonding-and-touching-pet-canine-for-foster-care-or-community-volunteer-work/554802089?prev_url=detail
 
 Footer-Home-Button(Google Icons): https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home 
+
+Bootstrap Hamburger Menu (Mobile & Tablet): https://getbootstrap.com/docs/5.3/components/navbar/#nav
+
+Bootstrap Drop-Down Menu (Desktop): https://getbootstrap.com/docs/5.3/components/dropdowns/#menu-items
