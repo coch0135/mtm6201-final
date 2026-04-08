@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 
-/***************************************** SPA CORRECTIONS/ADDITIONS TO CSS RESET *****************************************/
+/***************************************** SPA CORRECTIONS/ADDITIONS TO CSS RESET ********************************/
 
 /* use screen size as border size for content */
 html {
@@ -61,3 +61,17 @@ body {
 }
 
 /***************************************** MY STYLING BEGINS HERE *****************************************/
+
+/***************************************** GLOBAL STYLING *****************************************/
+
+h1 {
+	font-family: "Aclonica" /* links to google font from wireframes embedded in head of each html file */
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: "Happy+Monkey" /* links to google font from wireframes embedded in head of each html file */
+}
+
+body {
+	font-family: "EB+Garamond"; /* links to google font from wireframes embedded in head of each html file */
+}
