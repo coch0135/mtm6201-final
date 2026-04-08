@@ -11,7 +11,7 @@ Headings Font: Happy Monkey (Google Font): https://fonts.google.com/specimen/Hap
 
 Body Font: EB Garamond (Google Font): https://fonts.google.com/specimen/EB+Garamond
 
-Button Image (Adobe Stock Photo): https://stock.adobe.com/ca/images/creative-logo-design-animal-pet-cat-dog-health-logo-design-template-icon-vector-symbol-creative-idea/792827780?prev_url=detail
+Button Image (Adobe Stock Photo downloaded as Vector and modified in Illustrator): https://stock.adobe.com/ca/images/creative-logo-design-animal-pet-cat-dog-health-logo-design-template-icon-vector-symbol-creative-idea/792827780?prev_url=detail
 
 Home-Banner Image (Adobe Stock Image): https://stock.adobe.com/ca/images/female-volunteer-with-homeless-dog-at-animal-shelter-outdoors/296614138?prev_url=detail
 
