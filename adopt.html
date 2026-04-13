@@ -25,16 +25,16 @@
 
 <body>
 
-  <header>
+  <header role="banner"> <!-- adds aria role for accessibility -->
 
     <img src="/images/adopt-banner.jpeg"
       alt="shelter staff and prospective adopter crouching on the floor with a clipboard surrounded by dogs">
     <!-- adds banner image -->
 
-    <h1>Adopt</h1> <!-- adds page title -->
+    <h1 role="heading">Adopt</h1> <!-- adds page title --> <!-- adds aria role for accessibility -->
 
     <!-- nav menu from https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation"> <!-- adds aria role for accessibility -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -76,21 +76,21 @@
 
   </header>
 
-  <main>
+  <main role="main"> <!-- adds aria role for accessibility -->
 
-    <article>
+    <article role="article"> <!-- adds aria role for accessibility -->
       <h2>VIEW AVAILABLE PETS</h2> <!-- adds content from wireframes -->
       <img src="images/adopt-available.jpeg" alt="domestic pet animals lined up">
       <!-- adds stock image, clickable as a placeholder button to new (undesigned) pet gallery page -->
     </article>
 
-    <article>
+    <article role="article"> <!-- adds aria role for accessibility -->
       <h3>LEARN MORE ABOUT THE ADOPTION PROCESS</h3> <!-- adds content from wireframes -->
       <img src="images/adopt-process.jpeg" alt="two people greeting a dog in an outdoor kennel">
       <!-- adds stock image, clickable as a placeholder button to new (undesigned) adoption process page/document/interactive course -->
     </article>
 
-    <article>
+    <article role="article"> <!-- adds aria role for accessibility -->
       <h3>APPLY IN THE SECURE ADOPTION PORTAL</h3> <!-- adds content from wireframes -->
       <button>LOG IN</button> <!-- placeholder button (from image) -->
       <button>REGISTER</button> <!-- placeholder button (from image) -->
@@ -98,7 +98,7 @@
 
   </main>
 
-  <footer>
+  <footer role="contentinfo"> <!-- adds aria role for accessibility -->
 
     <p> &copy; 2026 Saint Francis Pet Refuge</p> <!-- copyright info -->
 

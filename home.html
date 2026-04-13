@@ -25,14 +25,14 @@
 
 <body>
 
-  <header>
+  <header role="banner"> <!-- adds aria role for accessibility -->
 
     <img src="/images/home-banner.jpeg" alt="person hugging dog outside kennel"> <!-- adds banner image -->
 
-    <h1>Saint Francis Pet Refuge</h1> <!-- adds page title -->
+    <h1 role="heading">Saint Francis Pet Refuge</h1> <!-- adds page title --> <!-- adds aria role for accessibility -->
 
     <!-- nav menu from https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation"> <!-- adds aria role for accessibility -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a> 
         <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -69,9 +69,9 @@
 
   </header>
 
-  <main>
+  <main role="main"> <!-- adds aria role for accessibility -->
 
-    <h2>Welcome to Saint Francis Pet Refuge!</h2> <!-- adds content from wireframes -->
+    <h2>Welcome to Saint Francis Pet Refuge!</h2> <!-- adds content from wireframes --> 
 
     <p>Based in the heart of Ottawa, our organization temporarily shelters and rehabilitates neglected animals before
       placing them with compatible human caretakers.</p> <!-- adds content from wireframes -->
@@ -87,7 +87,7 @@
     </div> <!-- close nav buttons container -->
   </main>
 
-  <footer>
+  <footer role="contentinfo"> <!-- adds aria role for accessibility -->
 
     <p> &copy; 2026 Saint Francis Pet Refuge</p> <!-- copyright info -->
 
