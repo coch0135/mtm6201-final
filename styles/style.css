@@ -105,11 +105,41 @@ img {
 }
 
 .nav-buttons img {
-	height: 100px;
-	width: 100px;
+	height: 25%;
+	width: 25%;
 }
 
+#adopt-process {
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #228ed3;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* styles home icon in footer */
 footer img {
 	height: 25px;
 	width: 25px;
+}
+
+footer a:link {
+	
+}
+
+footer a:hover { /* styles home icon in footer when hovered over */
+	background-color: #f5eea5; /* SPA How to change the icon color instead of background color? */
+}
+
+footer a:active { /* styles home icon in footer when selected */
+	background-color: #3e8117; /* SPA How to change the icon color instead of background color? */
 }
