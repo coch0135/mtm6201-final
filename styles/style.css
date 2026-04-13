@@ -64,6 +64,21 @@ body {
 
 /***************************************** GLOBAL STYLING *****************************************/
 
+.skip {/* styles skiplinks: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus { /* styles skiplinks focus state: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 h1 {
 	font-family: "Aclonica", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 	font-size: 2.5rem;
@@ -89,7 +104,3 @@ img {
 	width: 100%;
 }
 
-/* nav img {
-	width: 50px;
-	height: 50px;
-} */
