@@ -70,7 +70,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-	font-family: "Happy+Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
+	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 }
 
 h2 {
@@ -82,7 +82,7 @@ h3 {
 }
 
 body {
-	font-family: "EB+Garamond", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
+	font-family: "EB Garamond", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 }
 
 img {
