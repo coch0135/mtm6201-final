@@ -106,9 +106,24 @@ img { /* targets all images */
 	width: 100%; /* sizes all images */
 }
 
+.nav-buttons { /* targets all nav buttons */
+	display: grid; /* allows buttons to be arranged */
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 50% 50%;
+}
+
 .nav-buttons img { /* targets all nav button images */
-	height: 25%; /* sizes vectors */
-	width: 25%; /* sizes vectors */
+	height: 100px; /* sizes vectors */
+	width: 100px; /* sizes vectors */
+}
+
+.portal-nav-buttons { /* targets adoption portal nav buttons */
+	display: flex; /* allows buttons to be arranged */
+}
+
+.portal-nav-buttons img { /* targets adoption portal nav button images */
+	height: 100px; /* sizes vectors */
+	width: 100px; /* sizes vectors */
 }
 
 #adopt-process { /* targets adoption process image */
