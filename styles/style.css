@@ -104,6 +104,11 @@ img {
 	width: 100%;
 }
 
+.nav-buttons img {
+	height: 100px;
+	width: 100px;
+}
+
 footer img {
 	height: 25px;
 	width: 25px;
