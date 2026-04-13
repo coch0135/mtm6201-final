@@ -64,6 +64,8 @@ body {
 
 /***************************************** GLOBAL STYLING *****************************************/
 
+/* QUESTION: How do I test these? Since they weren't right on my midterm, I used code from W3S this time. It seems right, but so did the midterm. */
+
 .skip {/* styles skiplinks: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
   position: absolute;
   left: -10000px;
@@ -79,67 +81,67 @@ body {
   height: auto;
 }
 
-h1 {
+h1 { /* targets all page titles */
 	font-family: "Aclonica", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 	font-size: 2.5rem;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 { /* targets all other headings */
 	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 }
 
-h2 {
-	font-size: 2rem;
+h2 { /* targets all h2s */
+	font-size: 2rem; /* sizes h2s */
 }
 
-h3 {
-	font-size: 1.5rem;
+h3 { /* targets all h3s */
+	font-size: 1.5rem; /* sizes h3s */
 }
 
-body {
+body { /* targets all body content */
 	font-family: "EB Garamond", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
 }
 
-img {
-	width: 100%;
+img { /* targets all images */
+	width: 100%; /* sizes all images */
 }
 
-.nav-buttons img {
-	height: 25%;
-	width: 25%;
+.nav-buttons img { /* targets all nav button images */
+	height: 25%; /* sizes vectors */
+	width: 25%; /* sizes vectors */
 }
 
-#adopt-process {
-	width: 50%;
-	height: 50%;
-	border-radius: 50%;
+#adopt-process { /* targets adoption process image */
+	width: 50%; /* sizes image */
+	height: 50%; /* sizes image */
+	border-radius: 50%; /* rounds corners */
 }
 
-footer {
-	display: flex;
-	justify-content: space-between;
-	background-color: #228ed3;
-	color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
+footer { /* targets footer */
+	display: flex; /* arranges content in a row */
+	justify-content: space-between; /* spaces footer content */
+	background-color: #228ed3; /* color value from wireframes */
+	color: white; /* color value from wireframes */
+	padding-top: 10px; /* adds padding to footer */
+	padding-bottom: 10px; /* adds padding to footer */
+	padding-left: 10px; /* adds padding to footer */
+	padding-right: 10px; /* adds padding to footer */
 }
 
-/* styles home icon in footer */
-footer img {
-	height: 25px;
-	width: 25px;
-}
+/* QUESTION: How do I change the icon's color instead of background color? Is the google icon not properly embedded, or not properly targeted? I tried "color" and "fill," but only "background-color" displays any change. */
 
-footer a:link {
+.material-symbols-outlined { /* targets home icon in footer */
 	
 }
 
-footer a:hover { /* styles home icon in footer when hovered over */
-	background-color: #f5eea5; /* SPA How to change the icon color instead of background color? */
+footer a:link { /* targets home link in footer */
+
 }
 
-footer a:active { /* styles home icon in footer when selected */
-	background-color: #3e8117; /* SPA How to change the icon color instead of background color? */
+footer a:hover { /* targets home link in footer when hovered over */
+	background-color: #f5eea5; 
+}
+
+footer a:active { /* targets home link in footer when selected */
+	background-color: #3e8117; 
 }
