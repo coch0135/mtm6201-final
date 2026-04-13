@@ -5,6 +5,8 @@ Create a README.md file and save it at the root of your site. In the readme file
 
 Resources
 
+WIREFRAMES: https://www.figma.com/design/SLIYrEfgertnSdLdfpTV1X/Interactive-Prototype?node-id=0-1&t=5BEZrKDhSTwss5B4-1
+
 Title Font: Aclonica (Google Font): https://fonts.google.com/specimen/Aclonica
 
 Headings Font: Happy Monkey (Google Font): https://fonts.google.com/specimen/Happy+Monkey
