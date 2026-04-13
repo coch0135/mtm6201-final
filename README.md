@@ -31,6 +31,4 @@ Adopt-Process Image (Adobe Stock Photo): https://stock.adobe.com/ca/images/black
 
 Footer-Home-Button(Google Icons): https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home 
 
-Bootstrap Hamburger Menu (Mobile & Tablet): https://getbootstrap.com/docs/5.3/components/navbar/#nav
-
-Bootstrap Drop-Down Menu (Desktop): https://getbootstrap.com/docs/5.3/components/dropdowns/#menu-items
+Bootstrap Hamburger Menu (Main): https://getbootstrap.com/docs/5.3/components/navbar/#nav
