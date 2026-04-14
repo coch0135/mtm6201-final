@@ -119,15 +119,32 @@ a:active { /* targets all links when selected */
 	color: #3e8117; /* color value from wireframes */
 }
 
+.container-fluid { /* targets expanded nav menu */
+	background-color: #228ed3; /* color value from wireframes */
+}
+
+.nav-link { /* targets nav menu links */
+	color: #f5eea5; /* color value from wireframes */
+}
+
+.navbar-nav .nav-link.active { /* targets nav menu links when selected */
+	color: #f5eea5; /* color value from wireframes */
+}
+
+.navbar-toggler-icon { /* targets hamburger nav icon */
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 238, 165, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* modifies rgba values of menu icon to match wireframes */
+}
+
 .nav-buttons { /* targets all nav buttons */
 	display: grid; /* allows buttons to be arranged */
 	grid-template-columns: 1fr 1fr; /*grid has 2 equal columns */
 	place-items: center; /*centers grid cell content */
 }
 
-.nav-buttons a {
-	text-align: center;
-	padding-bottom: 10px;
+.nav-buttons a { /* targets all nav buttons */
+	text-align: center; /* centers text below vector images */
+	padding-bottom: 10px; /* adds padding */
+	padding-top: 10px; /* adds padding */
 }
 
 .nav-buttons img { /* targets all nav button images */
