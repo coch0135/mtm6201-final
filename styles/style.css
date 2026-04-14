@@ -279,6 +279,10 @@ a:active {
 	/* color value from wireframes */
 }
 
+.navbar {
+	padding: 0;
+}
+
 .navbar-nav .nav-link.active {
 	/* targets nav menu links when selected */
 	color: #f5eea5;
