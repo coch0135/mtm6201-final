@@ -116,7 +116,7 @@ a:hover { /* targets all links when hovered over */
 }
 
 a:active { /* targets all links when selected */
-	color: #f5eea5; /* color value from wireframes */
+	color: #3e8117; /* color value from wireframes */
 }
 
 .nav-buttons { /* targets all nav buttons */
@@ -135,18 +135,6 @@ a:active { /* targets all links when selected */
 	width: 100px; /* sizes vectors */
 }
 
-.portal-nav-buttons { /* targets adoption portal nav buttons */
-	display: grid; /* allows buttons to be arranged */
-	grid-template-rows: 100%; /*grid has 1 row */
-	grid-template-columns: 50% 50%; /*grid has 2 equal columns */
-	place-items: center; /*centers grid cell content */
-}
-
-.portal-nav-buttons img { /* targets adoption portal nav button images */
-	height: 100px; /* sizes vectors */
-	width: 100px; /* sizes vectors */
-}
-
 #adopt-process { /* targets adoption process image */
 	width: 50%; /* sizes image */
 	height: 50%; /* sizes image */
@@ -157,7 +145,7 @@ footer { /* targets footer */
 	display: flex; /* arranges content in a row */
 	justify-content: space-between; /* spaces footer content */
 	background-color: #228ed3; /* color value from wireframes */
-	color: white; /* color value from wireframes */
+	color: #f5eea5; /* color value from wireframes */
 	padding-top: 10px; /* adds padding to footer */
 	padding-bottom: 10px; /* adds padding to footer */
 	padding-left: 10px; /* adds padding to footer */
@@ -165,7 +153,7 @@ footer { /* targets footer */
 }
 
 footer path { /* targets home link in footer */
-fill: whitesmoke;
+fill: black;
 }
 
 footer path:hover { /* targets home icon in footer when hovered over */
@@ -173,5 +161,5 @@ footer path:hover { /* targets home icon in footer when hovered over */
 }
 
 footer path:active { /* targets home icon in footer when selected */
-	fill: #3e8117; 
+	fill: #f5eea5; 
 }
