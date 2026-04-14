@@ -371,24 +371,28 @@ main {
 
 #available-pets {
 	display: grid;
+	place-items: center;
 }
 
 #adoption-process {
+	background-color: #f5eea5;
 	display: grid;
+	padding: 10px;
+	padding-bottom: 20px;
+	place-items: center;
 }
 
 #adopt-process {
 	/* targets adoption process image */
 	width: 50%;
 	/* sizes image */
-	height: 50%;
-	/* sizes image */
-	border-radius: 50%;
+	border-radius: 25%;
 	/* rounds corners */
 }
 
 #secure-portal {
-	
+	display: grid;
+	justify-content: center;
 }
 
 /* STYLES FOOTER */
