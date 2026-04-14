@@ -183,13 +183,16 @@ h4,
 h5,
 h6 {
 	/* targets all other headings */
-	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
+	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif;
+	/* links to google font from wireframes embedded in head of each html file */
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-h2 { /* targets all h2s */
-	font-size: 2rem; /* sizes h2s */
+h2 {
+	/* targets all h2s */
+	font-size: 2rem;
+	/* sizes h2s */
 }
 
 h3 {
@@ -234,10 +237,14 @@ main {
 	margin: 20px;
 }
 
-.home-header { /* targets home page banner*/
-	background-image: url(../images/home-banner.png); /* makes home-banner img background image for page title */
-	height: 50vw; /* sets height for the header section */
-	max-height: 300px; /* sets max height for the header section */
+.home-header {
+	/* targets home page banner*/
+	background-image: url(../images/home-banner.png);
+	/* makes home-banner img background image for page title */
+	height: 50vw;
+	/* sets height for the header section */
+	max-height: 300px;
+	/* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -247,10 +254,14 @@ main {
 	align-items: center;
 }
 
-.about-header { /* targets about page banner*/
-	background-image: url(../images/about-banner.png); /* makes about-banner img background image for page title */
-	height: 50vw; /* sets height for the header section */
-	max-height: 300px; /* sets max height for the header section */
+.about-header {
+	/* targets about page banner*/
+	background-image: url(../images/about-banner.png);
+	/* makes about-banner img background image for page title */
+	height: 50vw;
+	/* sets height for the header section */
+	max-height: 300px;
+	/* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -260,10 +271,14 @@ main {
 	align-items: center;
 }
 
-.adopt-header { /* targets about page banner*/
-	background-image: url(../images/adopt-banner.png); /* makes about-banner img background image for page title */
-	height: 50vw; /* sets height for the header section */
-	max-height: 300px; /* sets max height for the header section */
+.adopt-header {
+	/* targets about page banner*/
+	background-image: url(../images/adopt-banner.png);
+	/* makes about-banner img background image for page title */
+	height: 50vw;
+	/* sets height for the header section */
+	max-height: 300px;
+	/* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -272,6 +287,8 @@ main {
 	justify-content: center;
 	align-items: center;
 }
+
+/* STYLES NAV BAR */
 
 .container-fluid {
 	/* targets expanded nav menu */
@@ -281,12 +298,15 @@ main {
 
 .nav-link {
 	/* targets nav menu links */
-	color: #f5eea5; /* color value from wireframes */
+	color: #f5eea5;
+	/* color value from wireframes */
 	font-size: larger;
 }
 
 .navbar {
+	/* targets nav bar */
 	padding: 0;
+	/* removes padding */
 }
 
 .navbar-nav .nav-link.active {
@@ -300,6 +320,8 @@ main {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 238, 165, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 	/* modifies rgba values of menu icon to match wireframes */
 }
+
+/* STYLES NAV BUTTONS */
 
 .nav-buttons {
 	/* targets all nav buttons */
@@ -329,6 +351,32 @@ main {
 	/* sizes vectors */
 }
 
+/* SPA */
+/* STYLES ABOUT PAGE */
+
+#mission {
+	display: grid;
+	
+}
+
+#history {
+	display: grid;
+}
+
+#location {
+	display: grid;
+}
+
+/* STYLES ADOPT PAGE */
+
+#available-pets {
+	display: grid;
+}
+
+#adoption-process {
+	display: grid;
+}
+
 #adopt-process {
 	/* targets adoption process image */
 	width: 50%;
@@ -338,6 +386,12 @@ main {
 	border-radius: 50%;
 	/* rounds corners */
 }
+
+#secure-portal {
+	
+}
+
+/* STYLES FOOTER */
 
 footer {
 	/* targets footer */
