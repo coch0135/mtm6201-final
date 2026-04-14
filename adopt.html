@@ -32,52 +32,52 @@
     <a href="#adoption-process" class="skip">Skip to adoption process</a> <!-- adds skiplink for accessibility -->
     <a href="#secore-portal" class="skip">Skip to secure portalt</a> <!-- adds skiplink for accessibility -->
 
-    <img src="/images/adopt-banner.jpeg"
-      alt="shelter staff and prospective adopter crouching on the floor with a clipboard surrounded by dogs">
-    <!-- adds banner image -->
+    <div class="adopt-header"> <!-- wraps banner for styling in css -->
 
-    <h1 role="heading">Adopt</h1> <!-- adds page title --> <!-- adds aria role for accessibility -->
+      <h1 role="heading">Adopt</h1> <!-- adds page title --> <!-- adds aria role for accessibility -->
 
-    <!-- nav menu from https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation"> <!-- adds aria role for accessibility -->
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-              <!-- active link to designed page -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Contribute</a>
-              <!-- inactive link to undesigned page from sitemap -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a> <!-- active link to about page -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Join the Team</a>
-              <!-- inactive link to undesigned page from sitemap -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Resources</a>
-              <!-- inactive link to undesigned page from sitemap -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="adopt.html">Adopt</a> <!-- active link to adopt page -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Get in Touch</a>
-              <!-- inactive link to undesigned page from sitemap -->
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
+
+      <!-- nav menu from https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation"> <!-- adds aria role for accessibility -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                <!-- active link to designed page -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contribute</a>
+                <!-- inactive link to undesigned page from sitemap -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a> <!-- active link to about page -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Join the Team</a>
+                <!-- inactive link to undesigned page from sitemap -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Resources</a>
+                <!-- inactive link to undesigned page from sitemap -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adopt.html">Adopt</a> <!-- active link to adopt page -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Get in Touch</a>
+                <!-- inactive link to undesigned page from sitemap -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
   </header>
 
@@ -98,8 +98,12 @@
     <article role="article" id="secure-portal"> <!-- adds aria role and id for accessibility -->
       <h3>APPLY IN THE SECURE ADOPTION PORTAL</h3> <!-- adds content from wireframes -->
       <div class="nav-buttons"> <!-- contains nav buttons  -->
-        <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>LOG IN</h3></a>
-        <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>REGISTER</h3></a>
+        <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+          <h3>LOG IN</h3>
+        </a>
+        <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+          <h3>REGISTER</h3>
+        </a>
       </div> <!-- closes nav buttons container  -->
     </article>
 
