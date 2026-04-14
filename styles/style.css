@@ -64,8 +64,6 @@ body {
 
 /***************************************** GLOBAL STYLING *****************************************/
 
-/* QUESTION: How do I test these? Since they weren't right on my midterm, I used code from W3S this time. It seems right, but so did the midterm. */
-
 .skip {/* styles skiplinks: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
   position: absolute;
   left: -10000px;
@@ -108,8 +106,6 @@ img { /* targets all images */
 	width: 100%; /* sizes all images */
 }
 
-/* QUESTION: How do I target the vector icon for nav buttons so they also have different states indicated by drop-shadow color? */
-
 a:link { /* targets all links */
 	color: #228ed3; /* color value from wireframes */
 	text-decoration: none; /* removes underline */
@@ -123,23 +119,21 @@ a:active { /* targets all links when selected */
 	color: #f5eea5; /* color value from wireframes */
 }
 
-/* QUESTION: Why does there appear to be extra left margin on the home page where the nav button icons are? */
-/* QUESTION: How do I center the text beneath the icon for each button? */
-
 .nav-buttons { /* targets all nav buttons */
 	display: grid; /* allows buttons to be arranged */
-	grid-template-rows: 1fr 1fr 1fr; /*grid has 3 equal rows */
-	grid-template-columns: 50% 50%; /*grid has 2 equal columns */
+	grid-template-columns: 1fr 1fr; /*grid has 2 equal columns */
 	place-items: center; /*centers grid cell content */
-	gap: 25px; /*adds space between grid cells */
+}
+
+.nav-buttons a {
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 .nav-buttons img { /* targets all nav button images */
 	height: 100px; /* sizes vectors */
 	width: 100px; /* sizes vectors */
 }
-
-/* QUESTION: How do I center the text beneath the icon for each button? */
 
 .portal-nav-buttons { /* targets adoption portal nav buttons */
 	display: grid; /* allows buttons to be arranged */
@@ -170,22 +164,14 @@ footer { /* targets footer */
 	padding-right: 10px; /* adds padding to footer */
 }
 
-/* QUESTION: How do I change the icon's color instead of background color? Is the google icon not properly embedded, or not properly targeted? I tried "color" and "fill," but only "background-color" displays any change. */
-
-
-
-.material-symbols-outlined { /* targets home icon in footer */
-	
-}
-
 footer path { /* targets home link in footer */
-fill: red;
+fill: whitesmoke;
 }
 
-footer a:hover { /* targets home link in footer when hovered over */
-	background-color: #f5eea5; 
+footer path:hover { /* targets home icon in footer when hovered over */
+	fill: #f5eea5;
 }
 
-footer a:active { /* targets home link in footer when selected */
-	background-color: #3e8117; 
+footer path:active { /* targets home icon in footer when selected */
+	fill: #3e8117; 
 }
