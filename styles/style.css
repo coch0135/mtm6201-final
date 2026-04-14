@@ -281,8 +281,8 @@ main {
 
 .nav-link {
 	/* targets nav menu links */
-	color: #f5eea5;
-	/* color value from wireframes */
+	color: #f5eea5; /* color value from wireframes */
+	font-size: larger;
 }
 
 .navbar {
