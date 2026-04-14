@@ -183,14 +183,13 @@ h4,
 h5,
 h6 {
 	/* targets all other headings */
-	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif;
-	/* links to google font from wireframes embedded in head of each html file */
+	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-h2 {
-	/* targets all h2s */
-	font-size: 2rem;
-	/* sizes h2s */
+h2 { /* targets all h2s */
+	font-size: 2rem; /* sizes h2s */
 }
 
 h3 {
@@ -231,9 +230,14 @@ a:active {
 	/* color value from wireframes */
 }
 
+main {
+	margin: 20px;
+}
+
 .home-header { /* targets home page banner*/
 	background-image: url(../images/home-banner.png); /* makes home-banner img background image for page title */
-	height: 200px; /* sets height for the header section */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -245,7 +249,8 @@ a:active {
 
 .about-header { /* targets about page banner*/
 	background-image: url(../images/about-banner.png); /* makes about-banner img background image for page title */
-	height: 200px; /* sets height for the header section */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
@@ -257,7 +262,8 @@ a:active {
 
 .adopt-header { /* targets about page banner*/
 	background-image: url(../images/adopt-banner.png); /* makes about-banner img background image for page title */
-	height: 200px; /* sets height for the header section */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
 	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
 	background-position: center;
 	background-repeat: no-repeat;
