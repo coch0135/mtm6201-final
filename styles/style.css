@@ -53,7 +53,6 @@ table {
 /* use screen size as border size for content */
 html {
  box-sizing: border-box;
- margin-top: -1.5rem;
 }
 
 body {
@@ -117,6 +116,11 @@ a:hover { /* targets all links when hovered over */
 
 a:active { /* targets all links when selected */
 	color: #3e8117; /* color value from wireframes */
+}
+
+.home-header {
+	background-image: url(../images/home-banner.jpeg);
+	height: 250px;
 }
 
 .container-fluid { /* targets expanded nav menu */

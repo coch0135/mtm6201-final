@@ -33,9 +33,14 @@
 
     <a href="#home-main" class="skip">Skip to main content</a> <!-- adds skiplink for accessibility -->
 
-    <img src="/images/home-banner.jpeg" alt="person hugging dog outside kennel"> <!-- adds banner image -->
+    <div class="home-header"> <!-- wraps banner img and h1 for styling in css -->
 
-    <h1 role="heading">Saint Francis Pet Refuge</h1> <!-- adds page title --> <!-- adds aria role for accessibility -->
+      
+
+      <h1 role="heading">Saint Francis Pet Refuge</h1> <!-- adds page title -->
+      <!-- adds aria role for accessibility -->
+
+    </div> <!-- closes home-header -->
 
     <!-- nav menu from https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" role="navigation"> <!-- adds aria role for accessibility -->
@@ -78,6 +83,7 @@
       </div>
     </nav>
 
+
   </header>
 
   <main role="main" id="home-main"> <!-- adds aria role and id for accessibility -->
@@ -90,17 +96,29 @@
     <!-- active and placeholder home page navigation buttons (from images) -->
     <div class="nav-buttons"> <!-- contains nav buttons for styling in css -->
 
-      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>CONTRIBUTE</h3></a> 
+      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>CONTRIBUTE</h3>
+      </a>
 
-      <a href="about.html"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>ABOUT US</h3></a> 
+      <a href="about.html"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>ABOUT US</h3>
+      </a>
 
-      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>JOIN THE TEAM</h3></a> 
+      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>JOIN THE TEAM</h3>
+      </a>
 
-      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>RESOURCES</h3></a> 
+      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>RESOURCES</h3>
+      </a>
 
-      <a href="adopt.html"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>ADOPT</h3></a> 
+      <a href="adopt.html"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>ADOPT</h3>
+      </a>
 
-      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline"><h3>GET IN TOUCH</h3></a> 
+      <a href="#"><img src="images/button-vector.png" alt="hand, leaf, dog, and cat outline">
+        <h3>GET IN TOUCH</h3>
+      </a>
 
     </div> <!-- close nav buttons container -->
   </main>
@@ -109,7 +127,11 @@
 
     <p> &copy; 2026 Saint Francis Pet Refuge</p> <!-- copyright info -->
 
-    <a href="home.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a>
+    <a href="home.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+        fill="#e3e3e3">
+        <path
+          d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+      </svg></a>
     <!-- home icon (google icon) linking to home page -->
 
   </footer>
