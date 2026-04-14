@@ -76,7 +76,9 @@ body {
 }
 
 .skip:focus { /* styles skiplinks focus state: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
-  position: static;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: auto;
   height: auto;
 }
@@ -170,12 +172,14 @@ footer { /* targets footer */
 
 /* QUESTION: How do I change the icon's color instead of background color? Is the google icon not properly embedded, or not properly targeted? I tried "color" and "fill," but only "background-color" displays any change. */
 
+
+
 .material-symbols-outlined { /* targets home icon in footer */
 	
 }
 
-footer a:link { /* targets home link in footer */
-
+footer path { /* targets home link in footer */
+fill: red;
 }
 
 footer a:hover { /* targets home link in footer when hovered over */
