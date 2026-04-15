@@ -1,7 +1,9 @@
 # mtm6201-final
 Adv Web Dev Final Project
 
-Create a README.md file and save it at the root of your site. In the readme file add information assuming that you are asked to explain the following about your website in an interview, "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating this project?" Finally, include a list of any assets or resources you used that was not your own, including any frameworks, libraries, plugins, fonts, or images. You will need to use the markdown language to format your README.md file. 
+"Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating this project?"
+
+The process began with a challenge, because I didn't know the wireframes I was designing for UX would be the basis for this final project. I used copy/pasted "creative commons" google image search results for the wireframes, and had to mine Adobe Stock Images for files to download and use here. Differences in those images made some design elements ineffective, prompting changes from the prototype. I changed other design and UI elements when I deemed them an improvement over the prototype, including larger changes to layout at different breakpoints, simplifications like abandoning text overlays, and smaller changes like hover state color values. I had fun modifying the nav button vector in Illustrator with brand colors. This project has taught me what it's like to be a student in a new and difficult subject far outside my expertise...and that persistence pays off. 
 
 Resources
 
