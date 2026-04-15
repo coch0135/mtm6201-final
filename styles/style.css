@@ -149,10 +149,9 @@ body {
 
 /***************************************** MY STYLING BEGINS HERE *****************************************/
 
-/***************************************** GLOBAL STYLING *****************************************/
+/* GLOBAL STYLES */
 
-.skip {
-	/* styles skiplinks: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+.skip { /* styles skiplinks: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
 	position: absolute;
 	left: -10000px;
 	top: auto;
@@ -161,8 +160,7 @@ body {
 	overflow: hidden;
 }
 
-.skip:focus {
-	/* styles skiplinks focus state: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+.skip:focus { /* styles skiplinks focus state: https://www.w3schools.com/accessibility/accessibility_skip_links.php */
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -170,351 +168,268 @@ body {
 	height: auto;
 }
 
-h1 {
-	/* targets all page titles */
-	font-family: "Aclonica", 'Arial Narrow', Arial, sans-serif;
-	/* links to google font from wireframes embedded in head of each html file */
-	font-size: 2.5rem;
+h1 { /* targets all page titles */
+	font-family: "Aclonica", 'Arial Narrow', Arial, sans-serif; /* links to google font from wireframes embedded in head of each html file */
+	font-size: 3rem; /* sets font size */
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-	/* targets all other headings */
-	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif;
-	/* links to google font from wireframes embedded in head of each html file */
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 1rem;
+h2, h3, h4, h5, h6 { /* targets all other headings */
+	font-family: "Happy Monkey", 'Arial Narrow', Arial, sans-serif; /* links to google font */
+	padding-top: 10px; /* adds padding */
+	padding-bottom: 10px; /* adds padding */
+	margin-top: 1rem; /* adds margin */
 }
 
-h2 {
-	/* targets all h2s */
-	font-size: 2rem;
-	/* sizes h2s */
+h2 { /* targets all h2s */
+	font-size: 2rem; /* sets font size */
 }
 
-h3 {
-	/* targets all h3s */
-	font-size: 1.5rem;
-	/* sizes h3s */
+h3 { /* targets all h3s */
+	font-size: 1.5rem; /* sets font size */
 }
 
-a {
-	color: #228ed3;
+body { /* targets all body content */
+	font-family: "EB Garamond", 'Arial Narrow', Arial, sans-serif; /* links to google font */
 }
 
-body {
-	/* targets all body content */
-	font-family: "EB Garamond", 'Arial Narrow', Arial, sans-serif;
-	/* links to google font from wireframes embedded in head of each html file */
+img { /* targets all images */
+	width: 100%; /* sizes all images */
 }
 
-img {
-	/* targets all images */
-	width: 100%;
-	/* sizes all images */
+a { /* targets all links */
+	color: #228ed3; /* color value from wireframes */
 }
 
-a:link {
-	/* targets all links */
-	color: #228ed3;
-	/* color value from wireframes */
-	text-decoration: none;
-	/* removes underline */
+a:link { /* targets all links */
+	color: #228ed3; /* color value from wireframes */
+	text-decoration: none; /* removes underline */
 }
 
-a:hover {
-	/* targets all links when hovered over */
-	color: #3e8117;
-	/* color value from wireframes */
+a:hover { /* targets all links when hovered over */
+	color: #3e8117; /* color value from wireframes */
 }
 
-a:active {
-	/* targets all links when selected */
-	color: #3e8117;
-	/* color value from wireframes */
+a:active { /* targets all links when selected */
+	color: #3e8117; /* color value from wireframes */
 }
 
-/* main {
-	margin: 20px;
-} */
-
-.wrapper {
-	margin: 0 20px;
-}
-
-.home-header {
-	/* targets home page banner*/
-	background-image: url(../images/home-banner.png);
-	/* makes home-banner img background image for page title */
-	height: 50vw;
-	/* sets height for the header section */
-	max-height: 300px;
-	/* sets max height for the header section */
-	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.about-header {
-	/* targets about page banner*/
-	background-image: url(../images/about-banner.png);
-	/* makes about-banner img background image for page title */
-	height: 50vw;
-	/* sets height for the header section */
-	max-height: 300px;
-	/* sets max height for the header section */
-	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#about-main article {
-	margin-top: 2rem;
-}
-
-#about-main article h3 {
-	margin-top: 0;
-	padding-top: 0;
-}
-
-#about-main article img {
-	margin-top: 1rem;
-}
-
-.adopt-header {
-	/* targets about page banner*/
-	background-image: url(../images/adopt-banner.png);
-	/* makes about-banner img background image for page title */
-	height: 50vw;
-	/* sets height for the header section */
-	max-height: 300px;
-	/* sets max height for the header section */
-	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.wrapper { /* targets article wrappers on about and adopt pages */
+	margin: 0 20px; /* sets margins */
 }
 
 /* STYLES NAV BAR */
 
-.container-fluid {
-	/* targets expanded nav menu */
-	background-color: #228ed3;
-	/* color value from wireframes */
+.container-fluid { /* targets expanded nav menu */
+	background-color: #228ed3; /* color value from wireframes */
 }
 
-.nav-link {
-	/* targets nav menu links */
-	color: #f5eea5;
-	/* color value from wireframes */
-	font-size: larger;
+.nav-link { /* targets nav menu links */
+	color: #f5eea5; /* color value from wireframes */
+	font-size: larger; /* increases font size */
 }
 
-.navbar {
-	/* targets nav bar */
-	padding: 0;
-	/* removes padding */
+.navbar { /* targets nav bar */
+	padding: 0; /* removes padding */
 }
 
-.navbar-nav .nav-link.active {
-	/* targets nav menu links when selected */
-	color: #f5eea5;
-	/* color value from wireframes */
+.navbar-nav .nav-link.active { /* targets nav menu links when selected */
+	color: #f5eea5; /* color value from wireframes */
 }
 
-.navbar-toggler-icon {
-	/* targets hamburger nav icon */
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 238, 165, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-	/* modifies rgba values of menu icon to match wireframes */
+.navbar-toggler-icon { /* targets hamburger nav icon */
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 238, 165, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* modifies rgba values of menu icon to match wireframes */
 }
 
 /* STYLES NAV BUTTONS */
 
-.nav-buttons {
-	/* targets all nav buttons */
-	display: grid;
-	/* allows buttons to be arranged */
-	grid-template-columns: 1fr 1fr;
-	/*grid has 2 equal columns */
-	place-items: center;
-	/*centers grid cell content */
+.nav-buttons { /* targets all nav buttons */
+	display: grid; /* allows buttons to be arranged */
+	grid-template-columns: 1fr 1fr; /*grid has 2 equal columns */
+	place-items: center; /*centers grid cell content */
 }
 
-.nav-buttons a {
-	/* targets all nav buttons */
-	text-align: center;
-	/* centers text below vector images */
-	padding-bottom: 10px;
-	/* adds padding */
-	padding-top: 10px;
-	/* adds padding */
+.nav-buttons a { /* targets all nav buttons */
+	text-align: center; /* centers text below vector images */
+	padding-bottom: 10px; /* adds padding */
+	padding-top: 10px; /* adds padding */
 }
 
-.nav-buttons img {
-	/* targets all nav button images */
-	height: 100px;
-	/* sizes vectors */
-	width: 100px;
-	/* sizes vectors */
+.nav-buttons img { /* targets all nav button images */
+	height: 100px; /* sizes vectors */
+	width: 100px; /* sizes vectors */
 }
 
-/* SPA */
+
+/* STYLES FOOTER */
+
+footer { /* targets footer */
+	display: flex; /* arranges content in a row */
+	justify-content: space-between; /* spaces footer content */
+	background-color: #228ed3; /* color value from wireframes */
+	color: #f5eea5; /* color value from wireframes */
+	padding-top: 10px; /* adds padding to footer */
+	padding-bottom: 10px; /* adds padding to footer */
+	padding-left: 10px; /* adds padding to footer */
+	padding-right: 10px; /* adds padding to footer */
+}
+
+footer path { /* targets home link in footer */
+	fill: black; /* changes home icon color */
+}
+
+footer path:hover { /* targets home icon in footer when hovered over */
+	fill: #f5eea5; /* changes home icon color */
+}
+
+footer path:active { /* targets home icon in footer when selected */
+	fill: #f5eea5; /* changes home icon color */
+}
+
+/* STYLES HOME PAGE */
+
+.home-header { /* targets home page banner*/
+	background-image: url(../images/home-banner.png); /* makes home-banner img background image for page title */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
+	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* STYLES ABOUT PAGE */
 
-#mission {
-	display: grid;
-	
+.about-header { /* targets about page banner*/
+	background-image: url(../images/about-banner.png); /* makes about-banner img background image for page title */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
+	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#history {
-	display: grid;
+#about-main article { /* targets articles on the about page*/
+	margin-top: 2rem; /* adds margin */
 }
 
-#location {
-	display: grid;
+#about-main article h3 { /* targets h3s on the about page*/
+	margin-top: 0; /* removes margin */
+	padding-top: 0; /* removes margin */
+}
+
+#about-main article img { /* targets main section images on the about page */
+	margin-top: 1rem; /* adds margin */
 }
 
 /* STYLES ADOPT PAGE */
 
-#available-pets {
-	display: grid;
-	place-items: center;
-	margin-top: 1rem;
-}
-
-#adoption-process {
-	background-color: #f5eea5;
-	display: grid;
-	padding: 10px;
-	padding-bottom: 20px;
-	place-items: center;
-}
-
-#adoption-process  h3, #secure-portal h3{
-	max-width: 340px;
-	text-align: center;
-}
-
-#adopt-process {
-	/* targets adoption process image */
-	width: 50%;
-	/* sizes image */
-	border-radius: 25%;
-	/* rounds corners */
-}
-
-.adoption-img {
-	width: 100%;
+.adopt-header { /* targets about page banner*/
+	background-image: url(../images/adopt-banner.png); /* makes about-banner img background image for page title */
+	height: 50vw; /* sets height for the header section */
+	max-height: 300px; /* sets max height for the header section */
+	/* code from https://www.w3schools.com/howto/howto_css_hero_image.asp to style text over background image*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
-}
-
-.adoption-img img {
-	margin: 0 auto;
-}
-
-#secure-portal {
-	display: grid;
 	justify-content: center;
+	align-items: center;
 }
 
-/* STYLES FOOTER */
-
-footer {
-	/* targets footer */
-	display: flex;
-	/* arranges content in a row */
-	justify-content: space-between;
-	/* spaces footer content */
-	background-color: #228ed3;
-	/* color value from wireframes */
-	color: #f5eea5;
-	/* color value from wireframes */
-	padding-top: 10px;
-	/* adds padding to footer */
-	padding-bottom: 10px;
-	/* adds padding to footer */
-	padding-left: 10px;
-	/* adds padding to footer */
-	padding-right: 10px;
-	/* adds padding to footer */
+#available-pets { /* targets available pets article*/
+	display: grid; /* allows items to be arranged*/
+	place-items: center; /* centers content within each cell*/
+	margin-top: 1rem; /* adds margin*/
+	text-align: center; /* centers text*/
 }
 
-footer path {
-	/* targets home link in footer */
-	fill: black;
+#adoption-process { /* targets adoption process article*/
+	background-color: #f5eea5; /* adds background color to section*/
+	display: grid; /* allows items to be arranged*/
+	padding: 10px; /* adds padding*/
+	padding-bottom: 20px; /* adds padding*/
+	place-items: center; /* centers content*/
 }
 
-footer path:hover {
-	/* targets home icon in footer when hovered over */
-	fill: #f5eea5;
+#adoption-process  h3, #secure-portal h3{ /* targets adoption process and adoption portal h3s*/
+	max-width: 340px; /* sets max width to preserve line breaks*/
+	text-align: center; /* centers text*/
 }
 
-footer path:active {
-	/* targets home icon in footer when selected */
-	fill: #f5eea5;
+#adopt-process { /* targets adoption process image */
+	width: 50%; /* sizes image */
+	border-radius: 25%; /* rounds corners */
 }
 
-/* MEDIA QUERIES */
+.adoption-img { /* targets adoption process image link*/
+	width: 100%; /* sets width */
+	display: flex; /* allows items to be arranged */
+}
 
-@media screen and (min-width: 576px) {
-	#about-main article {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1rem;
+.adoption-img img { /* targets adoption process image*/
+	margin: 0 auto; /* sets margin*/
+}
+
+#secure-portal { /* targets secure portal article id*/
+	display: grid; /* allows items to be arranged*/
+	justify-content: center; /* centers content*/
+}
+
+/* MEDIA QUERIES using bootstrap breakpoints */
+
+@media screen and (min-width: 576px) { /* STYLES FOR TABLET */
+
+	#about-main article { /* targets about page articles*/
+		display: flex; /* allows items to be arranged*/
+		justify-content: center; /* centers content*/
+		align-items: center; /* centers content*/
+		gap: 1rem; /* adds gap*/
 	}
 
-	#about-main article img {
-		width: 50%;
-		height: auto;
+	#about-main article img { /* targets about page article images*/
+		width: 50%; /* sets width*/
+		height: auto; /* sets height*/
 	}
 
-	.history {
-		flex-direction: row-reverse;
+	.history { /* targets history article on about page*/
+		flex-direction: row-reverse; /* reverses text and image*/
 	}
 
-	#about-main article:nth-child(2) {
-		margin-bottom: 2rem;
+	#about-main article:nth-child(2) { /* targets location article on about page*/
+		margin-bottom: 2rem; /* sets margin*/
 	}
 }
 
-@media screen and (min-width: 992px) {
-	#about-main {
-		display: flex;
-		flex-direction: row-reverse;
-		margin-top: 1rem;
+@media screen and (min-width: 992px) { /* STYLES FOR DESKTOP*/
+
+	#about-main { /* targets main content on about page*/
+		display: flex; /* allows content to be arranged*/
+		flex-direction: row-reverse; /* reverses order of content*/
+		margin-top: 1rem; /* adds margin*/
 	}
 
-	#about-main article {
-		margin-top: -1rem;
+	#about-main article { /* targets articles on the about page*/
+		margin-top: -1rem; /* adjusts margin*/
 	}
 
-	.mission {
-		flex-direction: column-reverse;
+	.mission { /* targets mission article on about page*/
+		flex-direction: column-reverse; /* reverses order of content*/
 	}
 
-	#about-main .mission img {
-		width: 100%;
-		margin-top: 0;
+	#about-main .mission img { /* targets mission article image*/
+		width: 100%; /* sets width*/
+		margin-top: 0; /* removes margin*/
 	}
 
-	#about-main .mission h2 {
-		margin-top: 0;
+	#about-main .mission h2 { /* targets mission h2*/
+		margin-top: 0; /* removes margin*/
 	}
 
 }
