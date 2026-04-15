@@ -242,19 +242,23 @@ a:active { /* targets all links when selected */
 
 /* STYLES NAV BUTTONS */
 
-.nav-buttons { /* targets all nav buttons */
+.nav-buttons, .adopt-nav-buttons { /* targets all nav buttons */
+	display: grid; /* allows buttons to be arranged */
+	grid-template-columns: 1fr 1fr; /*grid has 2 equal columns */
+	place-items: center; /*centers grid cell content */
+} { /* targets all nav buttons */
 	display: grid; /* allows buttons to be arranged */
 	grid-template-columns: 1fr 1fr; /*grid has 2 equal columns */
 	place-items: center; /*centers grid cell content */
 }
 
-.nav-buttons a { /* targets all nav buttons */
+.nav-buttons a, .adopt-nav-buttons a { /* targets all nav buttons */
 	text-align: center; /* centers text below vector images */
 	padding-bottom: 10px; /* adds padding */
 	padding-top: 10px; /* adds padding */
 }
 
-.nav-buttons img { /* targets all nav button images */
+.nav-buttons img, .adopt-nav-buttons img { /* targets all nav button images */
 	height: 100px; /* sizes vectors */
 	width: 100px; /* sizes vectors */
 }
