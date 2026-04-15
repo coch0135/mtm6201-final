@@ -215,6 +215,7 @@ a:active { /* targets all links when selected */
 
 .wrapper { /* targets article wrappers on about and adopt pages */
 	margin: 0 20px; /* sets margins */
+	max-width: 1200px; /* sets max width */
 }
 
 /* STYLES NAV BAR */
@@ -418,6 +419,11 @@ footer path:active { /* targets home icon in footer when selected */
 	grid-template-columns: 1fr 1fr 1fr; /*grid has 3 equal columns */
 	place-items: center; /*centers grid cell content */
 }
+
+	.about-header { /* targets about page banner*/
+	background-position: bottom;
+
+}
 	
 	#about-main { /* targets main content on about page*/
 		display: flex; /* allows content to be arranged*/
@@ -429,8 +435,18 @@ footer path:active { /* targets home icon in footer when selected */
 		margin-top: -1rem; /* adjusts margin*/
 	}
 
+	.history-location {
+		width: 65%;
+		margin-right: -1rem;
+	}
+
+	.history-location h3 {
+		margin-top: 0;
+	}
+
 	.mission { /* targets mission article on about page*/
 		flex-direction: column-reverse; /* reverses order of content*/
+		width: 35%;
 	}
 
 	#about-main .mission img { /* targets mission article image*/
