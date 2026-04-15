@@ -409,6 +409,12 @@ footer path:active { /* targets home icon in footer when selected */
 
 @media screen and (min-width: 992px) { /* STYLES FOR DESKTOP*/
 
+	.nav-buttons { /* targets all nav buttons */
+	display: grid; /* allows buttons to be arranged */
+	grid-template-columns: 1fr 1fr 1fr; /*grid has 3 equal columns */
+	place-items: center; /*centers grid cell content */
+}
+	
 	#about-main { /* targets main content on about page*/
 		display: flex; /* allows content to be arranged*/
 		flex-direction: row-reverse; /* reverses order of content*/
